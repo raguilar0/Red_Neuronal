@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1460788025 source:c:\users\ricardo\desktop\2016-1\redneuronal\principal.cpp
+	<iostream>
+	"Red_Neuronal.h"
+	"Pareja.h"
+
+1460788482 c:\users\ricardo\desktop\2016-1\redneuronal\red_neuronal.h
+	"Pareja.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1460786987 c:\users\ricardo\desktop\2016-1\redneuronal\pareja.h
+	<math.h>
+
+1460785105 source:c:\users\ricardo\desktop\2016-1\redneuronal\pareja.cpp
+	"Pareja.h"
+
+1460787921 source:c:\users\ricardo\desktop\2016-1\redneuronal\red_neuronal.cpp
+	"Red_Neuronal.h"
+
