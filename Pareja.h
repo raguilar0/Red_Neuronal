@@ -6,24 +6,27 @@
 class Pareja{
 private:
 public:
-    double x;
-    double y;
+    double categoria_casa;
+    double categoria_visita;
+    char resultado;
     Pareja(){
     };
 
-    Pareja(double x, double y){
-        this->x = x;
-        this->y = y;
+    Pareja(double categoria_casa, double categoria_visita){
+        this->categoria_casa = categoria_casa;
+        this->categoria_visita = categoria_visita;
     }
 
-    void sumaPareja(double x, double y);
+    void sumaPareja(double categoria_casa, double categoria_visita);
 
     double calcularDistancia(Pareja *pareja);
 
-    double getX(){return this->x;};
-    double getY(){return this->y;};
-    void setX(double x){this->x =x;};
-    void setY(double y){this->y =y;};
+    double getCategoria_casa(){return this->categoria_casa;};
+    double getCategoria_visita(){return this->categoria_visita;};
+    char getResultado(){return this->resultado};
+    void setResultado(char resultado){this->resultado = resultado;};
+    void setCategoria_casa(double categoria_casa){this->categoria_casa =categoria_casa;};
+    void setCategoria_visita(double categoria_visita){this->categoria_visita =categoria_visita;};
 };
 
 #endif // PAREJA_H_INCLUDED

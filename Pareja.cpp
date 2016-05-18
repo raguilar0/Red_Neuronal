@@ -1,10 +1,11 @@
 #include "Pareja.h"
 
-void Pareja::sumaPareja(double x, double y ){
-    this->x += x;
-    this->y +=y;
+void Pareja::sumaPareja(double categoria_casa, double categoria_visita ){
+    this->categoria_casa += categoria_casa;
+    this->categoria_visita +=categoria_visita;
+
 }
 
 double Pareja::calcularDistancia(Pareja *pareja){
-    return  sqrt(pow((pareja->x - this->x), 2) + pow((pareja->y - this->y), 2));
+    return  sqrt(pow((pareja->categoria_casa - this->categoria_casa), 2) + pow((pareja->categoria_visita - this->categoria_visita), 2));
 }

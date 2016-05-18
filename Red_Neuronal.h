@@ -25,8 +25,10 @@ public:
         for (int i = 0; i < TAMANO_ARREGLO; i++) {
                 red[i].setX(rand()%TAMANO_ARREGLO);
                 red[i].setY(rand()%TAMANO_ARREGLO);
-                entradas[i].setX(rand()%TAMANO_ARREGLO);
-                entradas[i].setY(rand()%TAMANO_ARREGLO);
+                entradas[i].setCategoria_casa(rand()%TAMANO_ARREGLO);
+                entradas[i].setCategoria_visita(rand()%TAMANO_ARREGLO);
+                int = rand()%3;
+
             }
     };
     int masCercano(Pareja *pareja);
